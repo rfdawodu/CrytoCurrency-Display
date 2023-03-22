@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+@keyframes example {
+  0% {
+    top: 0px;
+    background: red;
+    width: 100px;
+  }
+  100% {
+    top: 200px;
+    background: yellow;
+    width: 300px;
+  }
+}
+
+body {
+  background-color: aqua;
+  background-image: linear-gradient(to left, red, blue);
+  color: rgb(216, 208, 195);
+}
+h1 {
+  color: black;
+}
